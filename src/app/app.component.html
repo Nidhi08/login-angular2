@@ -1,0 +1,10 @@
+<ul>
+<li *ngFor="let user of users" > {{ user.userId }} <li>
+</ul>
+<br><br>
+<div>
+<label> User Name:</label> <input #userName/>
+<button (click)= "add(heroName.value); heroName.value=''" >
+Add
+</button>
+</div>
